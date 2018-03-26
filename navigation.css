@@ -1,0 +1,54 @@
+.logo-holdet{
+width: 220px;
+background-color: #070808;
+height: 40px;
+padding-top: 45px;
+padding-bottom: 45px;
+}
+.naviation-holder{
+width: 700px;
+background-color: #070808;
+height: 40px;
+padding-top: 45px;
+padding-bottom: 45px;
+}
+.navigation-list{
+	margin: 0px;
+	padding: 0px;
+list-style-type: none;
+display: flex;
+flex-direction: row;
+justify-content: flex-end; <!-- по концу контейнира -->
+text-transform: uppercase; <!-- все буквы загдавные -->
+
+
+
+}
+.navigation-list_list-item{
+	padding-left: 30px;
+}
+a{
+	color: #BEC1C2;
+	text-decoration: none;
+	font-size: 14px;
+	transition: 0.2s ease-out; <!-- плавно меняля текст--Ю
+}
+
+ a:hover{
+ 	color:#11A5D6; 
+ 	border-bottom: 2px solid #11A5D6;
+ 	text-decoration: underline;
+
+
+ }
+ .navbar{
+  background-color: #070808;
+  padding: 30px 0;
+  &_container{
+      display: flex;
+      justify-content: space-between;
+  }
+  li:focus{
+          color: #23b7a4;
+          border-color: #23b7a4;
+        }

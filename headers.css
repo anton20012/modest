@@ -1,0 +1,25 @@
+.heading-1{  <!-- заголовок-->
+line-height: 65px;
+font-size: 36px;
+font-weight: 700;
+color: #fff;
+text-transform: uppercase;
+list-style: -2px;
+
+}
+.subtitle{<!-- под загловок -->
+	font-size: 20px;
+	color: #ccc;
+
+
+}
+.heading-block{
+	display: flex;
+	margin-left: 200px;
+	text-transform:uppercase;
+	font-size: 30px;
+}
+.card_team:hover{
+	border-bottom: 2px solid #11A5D6;
+    border-color:#23b7a4;
+   
